@@ -1,4 +1,5 @@
 @import "tailwindcss";
+/* @plugin "daisyui"; */
 
 @theme {
   --font-display: "Helvetica", "sans-serif";

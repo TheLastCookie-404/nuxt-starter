@@ -5,9 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   vite: {
-    plugins: [
-      tailwindcss(),
-    ],
+    plugins: [tailwindcss()],
   },
   experimental: { appManifest: false },
   modules: ["nuxt-icon", "@nuxt/image"],
